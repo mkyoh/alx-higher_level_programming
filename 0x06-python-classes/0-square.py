@@ -3,5 +3,5 @@
 '''Define a Class Square."""
 
 class Square:
-    """Represent a square."""
-    pass
+    def __init__(self, size):
+        self.__size = size
